@@ -45,4 +45,5 @@ def ocr(urlImage, proxy=None):
 urlImage = 'https://pbs.twimg.com/media/GxRTiCrWsAA3Egv?format=jpg&name=medium'
 
 data = ocr(urlImage)
-print(data['ParsedResults'][0]['ParsedText'])
+#print(data['ParsedResults'][0]['ParsedText'])
+print(data)
